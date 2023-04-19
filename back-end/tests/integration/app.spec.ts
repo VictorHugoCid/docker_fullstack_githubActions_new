@@ -1,6 +1,6 @@
 import prisma from "database";
 import httpStatus from "http-status";
-import app from "server";
+import app from 'app';
 import supertest from "supertest";
 
 const agent = supertest(app);
