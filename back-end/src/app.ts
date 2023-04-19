@@ -3,9 +3,6 @@ import { faker } from "@faker-js/faker";
 import httpStatus from "http-status";
 import prisma from "./database";
 import cors from "cors";
-import dotenv from "dotenv";
-
-dotenv.config();
 
 const app = express();
 app.use(cors());
